@@ -1,0 +1,11 @@
+POST http://localhost:2000/student
+content-type: application/json
+
+{
+    "nome": "Guilherme Figueiredo Terenciani",
+    "cpf": "123.123.123-12"
+}
+
+###
+
+GET http://localhost:2000/student
